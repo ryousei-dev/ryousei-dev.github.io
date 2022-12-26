@@ -468,7 +468,7 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+#top {
   width: 100%;
   height: 50vh;
   background: rgb(255,255,255);
@@ -477,7 +477,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,124,186,1) 100
   position: relative;
 }
 
-#hero:before {
+#top:before {
   content: "";
   background: rgba(255, 255, 255, 0.6);
   position: absolute;
@@ -487,11 +487,11 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,124,186,1) 100
   right: 0;
 }
 
-#hero .container {
+#top .container {
   position: relative;
 }
 
-#hero h1 {
+#top h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
@@ -500,18 +500,18 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,124,186,1) 100
   font-family: "Poppins", sans-serif;
 }
 
-#hero h1 span {
+#top h1 span {
   color: #007cba;
 }
 
-#hero h2 {
+#top h2 {
   color: #555555;
   margin: 5px 0 30px 0;
   font-size: 24px;
   font-weight: 400;
 }
 
-#hero .btn-get-started {
+#top .btn-get-started {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -525,11 +525,11 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,124,186,1) 100
   background: #007cba;
 }
 
-#hero .btn-get-started:hover {
+#top .btn-get-started:hover {
   background: #247cf0;
 }
 
-#hero .btn-watch-video {
+#top .btn-watch-video {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
@@ -539,7 +539,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,124,186,1) 100
   align-items: center;
 }
 
-#hero .btn-watch-video i {
+#top .btn-watch-video i {
   color: #007cba;
   font-size: 32px;
   transition: 0.3s;
@@ -547,44 +547,44 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,124,186,1) 100
   margin-right: 8px;
 }
 
-#hero .btn-watch-video:hover {
+#top .btn-watch-video:hover {
   color: #007cba;
 }
 
-#hero .btn-watch-video:hover i {
+#top .btn-watch-video:hover i {
   color: #3b8af2;
 }
 
 @media (min-width: 1024px) {
-  #hero {
+  #top {
     background-attachment: fixed;
   }
 }
 
 @media (max-width: 768px) {
-  #hero {
+  #top {
     height: 100vh;
   }
 
-  #hero h1 {
+  #top h1 {
     font-size: 28px;
     line-height: 36px;
   }
 
-  #hero h2 {
+  #top h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
 
-  #hero .btn-get-started,
-  #hero .btn-watch-video {
+  #top .btn-get-started,
+  #top .btn-watch-video {
     font-size: 13px;
   }
 }
 
 @media (max-height: 500px) {
-  #hero {
+  #top {
     height: 120vh;
   }
 }
@@ -732,7 +732,7 @@ section {
 }
 
 .featured-services .icon i {
-  font-size: 48px;
+  font-size: 40px;
   line-height: 1;
   color: #007cba;
   transition: all 0.3s ease-in-out;
